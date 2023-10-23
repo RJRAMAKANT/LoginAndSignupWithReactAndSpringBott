@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.roww{
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+.allproductcard{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardd{
+  width: 20vw;
+  height: 50vh;
+  padding: 10px;
+  margin: 10px;
+  background-color: antiquewhite;
+}
+.btn{
+  width: 100%;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  margin-top: 5vh;
+}
+.emsg{
+  color: red;
+  font-weight: bold;
+}
+.card{
+  border: black;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+.cardhead{
+  align-items: center;
+  text-align: center;
+  height: 100px;
+}
+.middle{
+  height: 80px;
+  overflow-x: scroll;
+}
+
+.btnn{
+  width: 100px;
+}
